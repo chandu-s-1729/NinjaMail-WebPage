@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+/* Navigation Section */
+.green-button {
+    background: #4BA87D;
+    border-radius: 0px;
+    width: 168px;
+    height: 41px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: "Roboto";
+    margin-top: 16px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+
+    z-index: 100;
+    background-color: white;
+}
+
+nav .logo {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 35px;
+    color: #000000;
+
+}
+
+.logo-icon {
+    margin-right: -25px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    list-style: none;
+}
+
+nav ul li a {
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 17px;
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: #4BA87D;
+    text-decoration-thickness: 3px;
+    margin: 0px;
+}
+
+
+/* Hero Section */
+
+.hero-section-main-heading {
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 59px;
+    line-height: 71px;
+    width: 489px;
+}
+
+.hero-section-paragraph {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 19px;
+    width: 446px;
+}
+
+.trynow-custom-button {
+    width: 200px;
+    height: 65px;
+    border-width: 0;
+    background: #4BA87D;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.getademo-custom-button {
+    width: 200px;
+    height: 65px;
+    background: #FFFFFF;
+    border: 3px solid #4BA87D;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 21px;
+    text-align: center;
+    color: #4BA87D;
+}
+
+.hero-section-main-image {
+    width: 100%;
+    height: 383px;
+    margin-right: 30px;
+}
+
+/* Video Section */
+
+.video-section-bg-container {
+    background-image: url("https://res.cloudinary.com/dgwihcnkh/image/upload/v1669098439/NinjaMail%20Web%20Page/VIDEO_sidrla.png");
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+}
+
+.video-section-bg-container-medium {
+    background-image: url("https://res.cloudinary.com/dgwihcnkh/image/upload/v1669098439/NinjaMail%20Web%20Page/VIDEO_sidrla.png");
+    background-size: cover;
+    width: 50vw;
+    height: 320px;
+}
+
+.video-section-heading {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.video-section-button-element {
+    width: 65px;
+    height: 21px;
+    border-width: 0;
+    background-color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 6px;
+    text-align: center;
+    color: #4BA87D;
+}
+
+/* Section Three */
+
+.section-three {
+    background-image: url("https://res.cloudinary.com/dgwihcnkh/image/upload/v1669223446/NinjaMail%20Web%20Page/Slanted_Green_BG_btiaru.png");
+    background-size: cover;
+    
+}
+.section-three-image {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.section-three-card-text-container {
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-top: 17px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+
+.section-three-card-description {
+    color: #6c6b70;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.section-three-main-text {
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.section-three-text-description {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.learn-more {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 18px;
+    color: #4BA87D;
+}
+
+.icon {
+    font-size: 14px;
+}
+
+/* Section Four */
+
+.section-four-casestudy1 {
+    background-image: url("https://res.cloudinary.com/dgwihcnkh/image/upload/v1669098439/NinjaMail%20Web%20Page/photo_2_eutd7p.png");
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.section-four-casestudy2 {
+    background-image: url("https://res.cloudinary.com/dgwihcnkh/image/upload/v1669098439/NinjaMail%20Web%20Page/photo_3_qglzfk.png");
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.section-four-casestudy3 {
+    background-image: url("https://res.cloudinary.com/dgwihcnkh/image/upload/v1669098439/NinjaMail%20Web%20Page/photo_4_yjyk5q.png");
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.section-four-casestudy-name {
+    font-family: 'Roboto';
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.section-four-casestudy-experience {
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.section-four-main-text {
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 26px;
+    text-align: center;
+}
+
+.email-box {
+    border-style: solid;
+    border-radius: 5px;
+    width: 330px;
+    text-align: start;
+    height: 42px;
+    background-color: #FFFFFF;
+    border: 1px solid #9F9F9F;
+    padding: 8px;
+}
+
+.thanks-mail-msg {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    color: #4BA87D;
+    margin-top: 8px;
+}
+
+.join-our-list-button {
+    width: 180px;
+    height: 62px;
+    background-color: #4BA87D;
+    border-width: 0;
+
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section-five-brands-main-title {
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 26px;
+}
+
+.brand-logo-icon1 {
+    width: 104px;
+    height: 22px;
+}
+
+.brand-logo-icon2 {
+    width: 55px;
+    height: 29px;
+}
+
+.brand-logo-icon3 {
+    width: 94px;
+    height: 31px;
+}
+
+.brand-logo-icon4 {
+    width: 92px;
+    height: 17px;
+}
+
+.brand-logo-icon5 {
+    width: 91px;
+    height: 15px;
+}
+
+
+.get-started-section {
+    background-color: #4BA87D;
+    padding: 20px;
+}
+
+.title-section {
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+
+}
+
+.pickaplan-button {
+    background-color: white;
+    border-width: 0;
+    width: 131px;
+    height: 42px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 13px;
+    text-align: center;
+    color: #4BA87D;
+}
+
+.footer-section-lists {
+    list-style: none;
+}
+
+.hr-line {
+    background-color: #DBDBDB;
+    height: 1px;
+}
+
+.footer-section-hr-line-text {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+/* Medium and Large Devices */
+
+.hero-section-bg-image-large-devices {
+    background-image: url("https://res.cloudinary.com/dgwihcnkh/image/upload/v1669098439/NinjaMail%20Web%20Page/hero_photo_1_p1owbp.png");
+    background-size: cover;
+    width: 200px;
+    height: 383px;
+}
+
+.hero-section-hover {
+    z-index: 100;
+}
