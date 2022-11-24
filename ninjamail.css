@@ -1,49 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
 /* Navigation Section */
-.green-button {
+#green-button {
     background: #4BA87D;
     border-radius: 0px;
+    border-width: 0px;
     width: 168px;
     height: 41px;
-    color: #FFFFFF;
+    color: white;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 18px;
     font-family: "Roboto";
     margin-top: 16px;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-
-    z-index: 100;
-    background-color: white;
-}
-
-nav .logo {
-    font-family: 'Roboto';
-    font-weight: 900;
-    font-size: 35px;
-    color: #000000;
-
-}
-
-.logo-icon {
-    margin-right: -25px;
-}
-
-nav ul {
-    display: flex;
-    align-items: center;
-    gap: 38px;
-    list-style: none;
-}
-
-nav ul li a {
+.nav-list-anchors {
     font-family: 'Roboto';
     font-weight: 800;
     font-size: 17px;
@@ -51,7 +22,40 @@ nav ul li a {
     text-decoration: underline;
     text-decoration-color: #4BA87D;
     text-decoration-thickness: 3px;
-    margin: 0px;
+    margin-right: 5px;
+}
+
+.ninjamail-logo {
+    height: 100px;
+    width: 130px;
+    padding-top: 20px;
+    margin-bottom: -20px;
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem5 {
+    color: #323f4b;
+    font-family: "Roboto";
 }
 
 
@@ -145,8 +149,9 @@ nav ul li a {
 .section-three {
     background-image: url("https://res.cloudinary.com/dgwihcnkh/image/upload/v1669223446/NinjaMail%20Web%20Page/Slanted_Green_BG_btiaru.png");
     background-size: cover;
-    
+
 }
+
 .section-three-image {
     width: 100%;
     padding: 0;
@@ -333,6 +338,7 @@ nav ul li a {
 
 .footer-section-lists {
     list-style: none;
+    font-weight: 700;
 }
 
 .hr-line {
@@ -343,7 +349,7 @@ nav ul li a {
 .footer-section-hr-line-text {
     font-family: "Roboto";
     font-weight: 700;
-    font-size: 18px;
+    font-size: 9px;
 }
 
 
